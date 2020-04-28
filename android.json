@@ -22,13 +22,6 @@
                     "appPackage": "com.tencent.mm"
                 },
                 "name": "weixin"
-            },
-            {
-                "info": {
-                    "appActivity": "com.dangdang.buy2.StartupActivity",
-                    "appPackage": "com.dangdang.buy2"
-                },
-                "name": "dangdang"
             }
         ],
         "appium_info": {

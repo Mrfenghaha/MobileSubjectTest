@@ -35,4 +35,4 @@ optional arguments:
 ```
 ## 其他
 * monkey测试会输出测试报告在monkeyReport文件夹内，错误信息在error.txt，正确信息在info.txt中
-* 测试以及监控的报告见[参考]()
+* 测试以及监控的报告见[参考](https://github.com/fengyibo963/MobileSubjectTest/tree/master/monkeyReport/20200428175822.txt)

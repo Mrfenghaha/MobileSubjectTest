@@ -7,8 +7,13 @@
 * 修改android.json文件，根据模版添加/修改设备信息、APP信息（APP名称要与apk包名称保持一致，不需要含.apk）
 
 ## 环境安装
+### python环境
 * 本项目需要python3环境，安装请自行百度
 * 安装python库  pip3 install -r requirements.txt
+### Android环境准备
+* 需要安装Android SDK[参考](https://blog.csdn.net/baidu_36943075/article/details/105637524)，验证adb
+* 数据线连接Android设备（或虚拟机），或使用无线连接[参考](https://blog.csdn.net/wqfae01/article/details/79239142)
+* Android设备进入开发者模式，打开USB调试、USB安装、USB调试(安全设置)，修改GPU呈现模式分析为“在adb shell dumpsys gfxinfo中”（用于fps数据获取）
 
 ## 测试执行说明
 main.py脚本为测试执行统一入口
@@ -38,5 +43,6 @@ optional arguments:
  python3 main.py -p android -w monitor -a taobao -d Redmi4 -s 60  # 使用Redmi4手机，进行taobao的时常60s的设备资源监控（用于手动操作设备）
 ```
 ## 其他
+* 获取APP的Package和Activity请参考[Android获取APP的Package和Activity](https://blog.csdn.net/baidu_36943075/article/details/105637524)
 * monkey测试会输出测试报告在monkeyReport文件夹内，错误信息在error.txt，正确信息在info.txt中
 * 测试以及监控的报告见[参考](https://github.com/fengyibo963/MobileSubjectTest/tree/master/monkeyReport/20200428175822.txt)

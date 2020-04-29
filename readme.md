@@ -6,6 +6,10 @@
 * 将需要的APP的apk安装包放在apk文件下
 * 修改android.json文件，根据模版添加/修改设备信息、APP信息（APP名称要与apk包名称保持一致，不需要含.apk）
 
+## 环境安装
+* 本项目需要python3环境，安装请自行百度
+* 安装python库  pip3 install -r requirements.txt
+
 ## 测试执行说明
 main.py脚本为测试执行统一入口
 

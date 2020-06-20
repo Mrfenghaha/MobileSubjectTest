@@ -11,7 +11,7 @@
 * 本项目需要python3环境，安装请自行百度
 * 安装python库  pip3 install -r requirements.txt
 ### Android环境准备
-* 需要安装Android SDK[参考](https://blog.csdn.net/baidu_36943075/article/details/105637524)，验证adb
+* 需要安装Android SDK[参考](https://blog.csdn.net/baidu_36943075/article/details/90702002)，验证adb
 * 数据线连接Android设备（或虚拟机），或使用无线连接[参考](https://blog.csdn.net/wqfae01/article/details/79239142)
 * Android设备进入开发者模式，打开USB调试、USB安装、USB调试(安全设置)，修改GPU呈现模式分析为“在adb shell dumpsys gfxinfo中”（用于fps数据获取）
 
